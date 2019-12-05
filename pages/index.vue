@@ -9,7 +9,7 @@
               Science at The University of Texas Rio Grande Valley.
             </h3>
             <a
-              class="bg-teal-500 cursor-pointer hover:bg-teal-700 text-white font-bold border py-3 px-6 rounded-full"
+              class="h-24 bg-teal-500 cursor-pointer hover:bg-teal-700 text-white font-bold border py-3 px-6 rounded-full"
               href="#"
               v-scroll-to="'#projects'"
             >
@@ -18,6 +18,17 @@
                 class="w-4 h-auto ml-2 inline-block"
                 src="~/assets/svg/arrow-right.svg"
                 alt="arrow right"
+              />
+            </a>
+            <a
+              class="bg-teal-500 cursor-pointer hover:bg-teal-700 text-white font-bold border py-3 px-6 rounded-full"
+              target="_blank"
+              href="https://drive.google.com/file/d/1eyJlIwqTv-gX06AbFlyzqRRLLekJPJ9z/view?usp=sharing"
+            >
+              <span>See my Resume</span>
+              <img
+                class="w-8 h-auto ml-2 pb-1 inline-block"
+                src="https://img.icons8.com/officel/100/000000/set-as-resume.png"
               />
             </a>
           </div>
@@ -33,18 +44,18 @@
     </div>
 
     <div class="px-0 md:px-12 pb-8" id="projects">
-      <!-- First Card -->
+      <!-- Fishnet Project -->
       <div
         data-aos="fade-down"
         class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 flex flex-wrap jutify-around"
       >
         <img
-          class="w-full md:w-5/12 lg:w-1/3 shadow-2xl bg-cover overflow-hidden fishnet object-fit"
+          class="w-full md:h-96 lg:h-auto md:w-5/12 lg:w-1/3 shadow-2xl bg-cover overflow-hidden object-fit"
           src="~/assets/img/fishnet.png"
           alt=""
         />
         <div
-          class="w-full md:w-7/12 lg:w-2/3 bg-white py-4 px-8 justify-between leading-normal"
+          class="w-full md:w-7/12 lg:w-2/3 bg-transparent py-4 px-8 justify-between leading-normal"
         >
           <div class="mb-8">
             <div class="text-gray-900 font-bold text-xl mb-2">
@@ -85,6 +96,97 @@
           >
         </div>
       </div>
+
+      <!-- OrthoApp -->
+      <div
+        data-aos="fade-down"
+        class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 lg:flex lg:flex-wrap lg:jutify-around"
+      >
+        <div
+          class="w-full lg:w-2/3 bg-transparent py-4 px-8 justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              OrthoApp: Management web application for Orthodontists
+            </div>
+            <p class="text-gray-600 text-sm pb-2">
+              Head Developer / 2019 Project / Currently in Beta
+            </p>
+            <p class="text-gray-700 text-base">
+              Web application created for Orthodontists. The purpose of this
+              application is to mantain organization and standards in the
+              dentists office. This is accomplished by keeping track of each
+              patient their appointments and any other necessary notes. Also,
+              keeping track of office finances and calendars.
+              <br />
+              <br />
+              The release of this application is schedule for December 2019 -
+              January 2020. Some of the technologies being used for development
+              are Vue.js, Laravel, MySQL and Amazon S3. The combination of new
+              technologies like Vue.js and polished frameworks like Laravel
+              gives the application a solid foundation for continous
+              improvement.
+            </p>
+          </div>
+        </div>
+        <img
+          class="w-full lg:w-1/3 shadow-2xl bg-cover overflow-hidden object-fit"
+          src="~/assets/img/healthadmin.png"
+          alt=""
+        />
+      </div>
+
+      <!-- Nutritionist app -->
+      <div
+        data-aos="fade-down"
+        class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 lg:flex lg:flex-wrap lg:jutify-around"
+      >
+        <img
+          class="w-full mt-2 lg:w-5/12 lg:block hidden shadow-2xl bg-cover overflow-hidden object-fit"
+          src="~/assets/img/nutriIndex.png"
+          alt=""
+        />
+        <div
+          class="w-full lg:w-7/12 bg-transparent py-4 px-8 justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              Nutritionist app
+            </div>
+            <p class="text-gray-600 text-sm pb-2">
+              Head Developer / 2019 Project
+            </p>
+            <p class="text-gray-700 text-base">
+              This application is being design by a nutritionist and Me. The
+              purpose of this aplication is to make easier to keep track of each
+              patient. The most important aspect of it is to make all the
+              calculations in order to create a food menu apropiated for that
+              patient.
+              <br />
+              <br />
+              The framework currently used to develop this application is
+              <a
+                class="no-underline hover:underline text-blue-500 "
+                target="_blank"
+                href="https://quasar.dev/"
+              >
+                Quasar,</a
+              >
+              a solution based on Vue.js created to build website, desktop and
+              mobile applications. For the back-end Firebase is being used for
+              authentication and Firestore as database.
+            </p>
+          </div>
+        </div>
+        <img
+          class="w-full mt-2 lg:hidden shadow-2xl bg-cover overflow-hidden fishnet object-fit"
+          src="~/assets/img/nutriIndex.png"
+          alt=""
+        />
+      </div>
+
+      <!-- Flights: https://www.youtube.com/watch?v=YEmyNHrnmeY -->
+      <!-- Resume: https://drive.google.com/file/d/1eyJlIwqTv-gX06AbFlyzqRRLLekJPJ9z/view?usp=sharing -->
     </div>
   </div>
 </template>
