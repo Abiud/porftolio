@@ -103,7 +103,7 @@
         class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 lg:flex lg:flex-wrap lg:jutify-around"
       >
         <div
-          class="w-full lg:w-2/3 bg-transparent py-4 px-8 justify-between leading-normal"
+          class="w-full lg:w-7/12 bg-transparent py-4 px-8 justify-between leading-normal"
         >
           <div class="mb-8">
             <div class="text-gray-900 font-bold text-xl mb-2">
@@ -130,7 +130,7 @@
           </div>
         </div>
         <img
-          class="w-full lg:w-1/3 shadow-2xl bg-cover overflow-hidden object-fit"
+          class="w-full lg:w-5/12 shadow-2xl bg-cover overflow-hidden object-fit"
           src="~/assets/img/healthadmin.png"
           alt=""
         />
