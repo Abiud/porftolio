@@ -50,12 +50,12 @@
         class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 flex flex-wrap jutify-around"
       >
         <img
-          class="w-full md:h-96 lg:h-auto md:w-5/12 lg:w-1/3 shadow-2xl bg-cover overflow-hidden object-fit"
+          class="w-full md:h-96 lg:h-auto md:w-5/12 lg:w-3/12 shadow-2xl bg-cover overflow-hidden object-fit"
           src="~/assets/img/fishnet.png"
           alt=""
         />
         <div
-          class="w-full md:w-7/12 lg:w-2/3 bg-transparent py-4 px-8 justify-between leading-normal"
+          class="w-full md:w-7/12 lg:w-9/12 bg-transparent py-4 px-8 justify-between leading-normal"
         >
           <div class="mb-8">
             <div class="text-gray-900 font-bold text-xl mb-2">
@@ -185,8 +185,141 @@
         />
       </div>
 
+      <!-- LookIt -->
+      <div
+        data-aos="fade-down"
+        class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 lg:flex lg:flex-wrap lg:jutify-around"
+      >
+        <img
+          class="w-64 mt-2 inline-block lg:w-1/12 shadow-2xl bg-cover overflow-hidden "
+          src="~/assets/img/lookit.png"
+          alt=""
+        />
+        <img
+          class="w-64 mt-2 lg:hidden inline-block shadow-2xl bg-cover overflow-hidden"
+          src="~/assets/img/lookit2.png"
+          alt=""
+        />
+        <div
+          class="w-full lg:w-10/12 bg-transparent py-4 px-8 justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              LookIt: Memory game for kids
+            </div>
+            <p class="text-gray-600 text-sm pb-2">
+              Class Project / 2017 Project
+            </p>
+            <p class="text-gray-700 text-base">
+              Memory game developed in android studio as class project written
+              in Java. To store high scores and user data we used Firebase
+              Real-time database.
+              <br />
+              <br />
+              <a
+                class="no-underline hover:underline text-blue-500 "
+                target="_blank"
+                href="https://github.com/Abiud/LookIt-Abiud-Android"
+              >
+                Github Repository</a
+              >
+            </p>
+          </div>
+        </div>
+        <img
+          class="w-full hidden lg:block lg:w-1/12 shadow-2xl bg-cover overflow-hidden object-fit"
+          src="~/assets/img/lookit2.png"
+          alt=""
+        />
+      </div>
+      <!-- Senior Project -->
+      <div
+        data-aos="fade-down"
+        class="w-full pt-0 lg:pt-4 pb-8 border-b border-gray-500 flex flex-wrap jutify-around"
+      >
+        <img
+          class="lg:h-auto md:h-96 md:w-5/12 lg:block lg:w-2/12 shadow-2xl bg-cover overflow-hidden"
+          src="~/assets/img/SeniorPoster.png"
+          alt=""
+        />
+        <div
+          class="w-full md:w-7/12 lg:w-10/12 bg-transparent py-4 px-8 justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              UTRGV Bot
+            </div>
+            <p class="text-gray-600 text-sm pb-2">
+              Senior Project / 2018 Project
+            </p>
+            <p class="text-gray-700 text-base">
+              A Facebook messenger bot capable of answering student questions
+              about classes and professors at UTRGV. This bot was built using
+              Wit.ai, Express and Mongodb as backend and Html, Css and
+              Javascript as frontend.
+              <br />
+              <br />
+              <a
+                class="no-underline hover:underline text-blue-500 "
+                target="_blank"
+                href="https://drive.google.com/file/d/1Onb34XBGPTVONZZ3j5EKqXv0OP2hjp5p/view?usp=sharing"
+                >Check out the full size poster.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CheapFlights Project -->
+      <div
+        data-aos="fade-down"
+        class="pt-0 lg:pt-4 pb-8 border-b border-gray-500 flex flex-wrap jutify-around"
+      >
+        <iframe
+          class="w-full h-64 lg:h-auto lg:hidden block shadow-2xl bg-cover overflow-hidden object-fit"
+          src="https://www.youtube.com/embed/YEmyNHrnmeY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div
+          class="w-full lg:w-8/12 bg-transparent py-4 px-8 justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              Find the Cheapest Flight
+            </div>
+            <p class="text-gray-600 text-sm pb-2">
+              Hackaton Project / 2018 Project
+              <br />
+              Hackaton MLH algolia challenge winner for best implementation of
+              algolia.
+            </p>
+            <p class="text-gray-700 text-base">
+              Web application built using Html, Css and Javascript. Designed to
+              find the cheapest flight from one location to another. The result
+              and price are displayed on an animated map. If is cheaper to take
+              more than one flight then those options will be displayed.
+              <br />
+              <br />
+              <a
+                class="no-underline hover:underline text-blue-500 "
+                target="_blank"
+                href="https://github.com/Abiud/Flights"
+                >Github Repository</a
+              >
+            </p>
+          </div>
+        </div>
+        <iframe
+          class="w-full hidden lg:block lg:w-4/12 shadow-2xl bg-cover overflow-hidden object-fit"
+          src="https://www.youtube.com/embed/YEmyNHrnmeY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
       <!-- Flights: https://www.youtube.com/watch?v=YEmyNHrnmeY -->
-      <!-- Resume: https://drive.google.com/file/d/1eyJlIwqTv-gX06AbFlyzqRRLLekJPJ9z/view?usp=sharing -->
     </div>
   </div>
 </template>
@@ -230,6 +363,7 @@ export default {
   bottom: 0;
   width: 100%;
   background-image: url('~assets/svg/wave-bottom.svg');
+  background-repeat: no-repeat;
   height: 300px;
 }
 
