@@ -1,0 +1,78 @@
+{
+  "links": {
+    "projects": "Projects",
+    "resume": "Resume"
+  },
+  "home": {
+    "name": "Hi, my name is Abiud Cantu",
+    "introduction": "I'm Master Student in Computer Science at The University of Texas Rio Grande Valley."
+  },
+  "projects": {
+    "fishnet": {
+      "title": "",
+      "body": "FishNET facilitates remote tracking of individual zebrafish lines and links associated biological resources to enable robust and efficient colony management and storage of laboratory information related to zebrafish.",
+      "body2": "was used to create a cross-platform relational database that supports multiple users and groups per organization. More than a hundred Filemaker scripts were needed in order to deliver a good user experience. Also, with the feedback of more people in my team I was able to design a convenient and fast UI. All the information provided by the user is stored in a private MySQL database.",
+      "footer": "First author resource paper:"
+    },
+    "healthadmin": {
+      "title": "HealthAdmin: Management web application for Orthodontists",
+      "body": "Web application created for Orthodontists. The purpose of this application is to mantain organization and standards in the dentists office. This is accomplished by keeping track of each patient their appointments and any other necessary notes. Also, keeping track of office finances and calendars.",
+      "body2": "The release of this application is schedule for December 2019 - January 2020. Some of the technologies being used for development are Vue.js, Laravel, MySQL and Amazon S3. The combination of new technologies like Vue.js and polished frameworks like Laravel gives the application a solid foundation for continous improvement."
+    },
+    "nutri": {
+      "title": "General purpose appointment management App",
+      "body": "This demo was designed by me with the goal of creating a multiplatform application capable of authentication and API calls. This project was useful as boilerplate for other projects created by me.",
+      "body2": "he framework currently used to develop this application is ",
+      "body3": "a solution based on Vue.js created to build website, desktop and mobile applications. For the back-end Firebase is being used for authentication and Firestore as database."
+    },
+    "flights": {
+      "sub": "Hackaton MLH algolia challenge",
+      "sub2": "winner",
+      "sub3": "for best implementation of algolia.",
+      "body": "Web application built using Html, Css and Javascript. Designed to find the cheapest flight from one location to another. The result and price are displayed on an animated map. If is cheaper to take more than one flight then those options will be displayed."
+    },
+    "lookit": {
+      "title": "LookIt: Memory game for kids",
+      "body": "Memory game developed in android studio as class project written in Java. To store high scores and user data we used Firebase Real-time database."
+    },
+    "bot": {
+      "body": "A Facebook messenger bot capable of answering student questions about classes and professors at UTRGV. This bot was built using Wit.ai, Express and Mongodb as backend and Html, Css and Javascript as frontend.",
+      "link": "Check out the full size poster."
+    }
+  },
+  "tags": {
+    "fishnet": [
+      "Head Developer",
+      "Internship Project",
+      "Currently used by Multiple Laboratories"
+    ],
+    "orthoapp": [
+      "Head Developer",
+      "2019 Project",
+      "Currently in Beta"
+    ],
+    "appmanager": [
+      "Head Developer",
+      "2020 Project"
+    ],
+    "lookit": [
+      "Class Project",
+      "2017 Project"
+    ],
+    "utrgvbot": [
+      "Senior Project",
+      "2018 Project"
+    ],
+    "flights": [
+      "Hackaton Project",
+      "2018 Project"
+    ]
+  },
+  "contact": {
+    "title": "Contact Me!",
+    "name": "Name",
+    "email": "E-mail",
+    "message": "Message",
+    "send": "Send"
+  }
+}

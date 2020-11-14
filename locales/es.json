@@ -1,0 +1,78 @@
+{
+  "links": {
+    "projects": "Projectos",
+    "resume": "Currículum"
+  },
+  "home": {
+    "name": "Hola, mi nombre es Abiud Cantu",
+    "introduction": "Soy un estudiante de maestria en la Universidad de Texas Rio Grande Valley"
+  },
+  "projects": {
+    "fishnet": {
+      "title": "",
+      "body": "FishNET facilita el seguimiento remoto de líneas individuales de pez cebra y vincula los recursos biológicos asociados para permitir una gestión de colonias eficiente y el almacenamiento de información de laboratorio relacionada con el pez cebra.",
+      "body2": "se utilizó para crear una base de datos relacional multiplataforma que admite múltiples usuarios y grupos por organización. Diseñe más de cien scripts de Filemaker para ofrecer una buena experiencia de usuario. Además, con los comentarios de más personas de mi equipo, pude diseñar una interfaz de usuario rápida y conveniente. Toda la información proporcionada por el usuario se almacena en una base de datos privada MySQL.",
+      "footer": "Artículo de recurso:"
+    },
+    "healthadmin": {
+      "title": "HealthAdmin: Aplicación web de gestión para ortodoncistas",
+      "body": "Aplicación web creada para Ortodoncistas. El propósito de esta aplicación es mantener la organización y los estándares en el consultorio del dentista. Esto se logra realizando un seguimiento de cada paciente, sus citas y cualquier otra nota necesaria. Además, realizar un seguimiento de las finanzas y los calendarios de la oficina.",
+      "body2": "Algunas de las tecnologías que se utilizan para el desarrollo son Vue.js, Laravel, MySQL y Amazon S3. La combinación de nuevas tecnologías como Vue.js y frameworks como Laravel le da a la aplicación una base sólida para la mejora continua."
+    },
+    "nutri": {
+      "title": "Aplicación de gestión de citas de uso general",
+      "body": "Esta demostración fue diseñada por mí con el objetivo de crear una aplicación multiplataforma capaz de autenticación y llamadas a API. Este proyecto fue útil como modelo estándar para otros proyectos creados por mí.",
+      "body2": "El framework utilizado para desarrollar esta aplicación es ",
+      "body3": "una solución basada en Vue.js creada para crear aplicaciones móviles, de escritorio y de sitios web. Para el back-end, Firebase se utiliza para la autenticación y Firestore como base de datos."
+    },
+    "flights": {
+      "sub": "",
+      "sub2": "Ganador",
+      "sub3": "del reto MLH algolia por mejor implementación de algolia.",
+      "body": "Aplicación web construida usando Html, Css y Javascript. Diseñado para encontrar el vuelo más barato de un lugar a otro. El resultado y el precio se muestran en un mapa animado. Si es más barato tomar más de un vuelo, entonces se mostrarán esas opciones."
+    },
+    "lookit": {
+      "title": "LookIt: Juego de memoria para niños",
+      "body": "Juego de memoria desarrollado en Android Studio como proyecto de clase escrito en Java. Para almacenar puntajes altos y datos de usuario, usamos la base de datos en tiempo real de Firebase."
+    },
+    "bot": {
+      "body": "Un bot de mensajería de Facebook capaz de responder preguntas de estudiantes sobre clases y profesores en UTRGV. Este bot fue construido usando Wit.ai, Express y Mongodb como backend y Html, Css y Javascript como frontend.",
+      "link": "Mirá el póster de tamaño completo."
+    }
+  },
+  "tags": {
+    "fishnet": [
+      "Desarrollador Principal",
+      "Projecto de Internado",
+      "Usado por múltiples laboratorios"
+    ],
+    "orthoapp": [
+      "Desarrollador Principal",
+      "2019 Project",
+      "Actualmente en Beta"
+    ],
+    "appmanager": [
+      "Desarrollador Principal",
+      "2020 Project"
+    ],
+    "lookit": [
+      "Projecto Escolar",
+      "2017 Project"
+    ],
+    "utrgvbot": [
+      "Projecto de graduación",
+      "2018 Project"
+    ],
+    "flights": [
+      "Projecto de Hackaton",
+      "2018 Project"
+    ]
+  },
+  "contact": {
+    "title": "Contáctame!",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
+  }
+}

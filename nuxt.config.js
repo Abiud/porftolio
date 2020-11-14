@@ -1,6 +1,8 @@
+import i18n from './config/i18n'
 
 export default {
   mode: 'universal',
+  components: true,
   router: {
     base: '/'
   },
@@ -26,18 +28,14 @@ export default {
   ** Global CSS
   */
   css: [
-    'aos/dist/aos.css'
+    '~/assets/css/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
     {
-      src: '@/plugins/aos.js',
-      mode: 'client',
-    },
-    {
-      src: '~plugins/vue-scrollto.js',
+      src: '~/plugins/vue-scrollto.js',
       mode: 'client',
     },
   ],
@@ -47,6 +45,23 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    [
+      'nuxt-i18n',
+      {
+        defaultLocale: 'en',
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'es',
+            name: 'Spanish'
+          }
+        ],
+        vueI18n: i18n
+      }
+    ],
   ],
   /*
   ** Nuxt.js modules
@@ -60,7 +75,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
     }
   }
 }

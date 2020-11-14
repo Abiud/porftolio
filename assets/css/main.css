@@ -1,0 +1,146 @@
+:root {
+  --color: #243746;
+  --text-secondary: #474747;
+  --color-primary: #ffffff;
+  --color-secondary: #0e2233;
+  --bg: #FFFFFF;
+  --bg-secondary: #FFFFFF;
+  --border-color: #ddd;
+}
+
+html, body {
+  height: 100vh;
+  overflow: hidden;
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=#FFFFFF, endColorstr=#f2f3f8, GradientType=1 );
+}
+
+.test-body {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+/* section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+} */
+
+.background-gradient {
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(229, 28%, 92%, 1) 50%,
+    hsla(223, 55%, 90%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=#FFFFFF, endColorstr=#f2f3f8, GradientType=1 );
+}
+
+.background-blob {
+  background: url('~assets/svg/Background1.svg') no-repeat top right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+.card {
+  background-color: var(--bg-secondary);
+}
+
+.button {
+  /* background-color: var(--bg-secondary); */
+  color: var(--color-primary);
+}
+
+.title {
+  color: #2844a8;
+  font-weight: 900;
+  text-shadow: -0.0075em 0.0075em 0 #485fb5, 0.005em 0.005em 0 #ee715c, 0.01em 0.01em 0 #f18774, 0.015em 0.015em #f18a78, 0.02em 0.02em 0 #f28e7c, 0.025em 0.025em 0 #f29181, 0.03em 0.03em 0 #f29585, 0.035em 0.035em 0 #f39889;
+}
+
+h3.title {
+  font-size: 82px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+h4.title {
+  font-size: 64px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: var(--color-secondary);
+}
+
+.tags {
+  background-color: var(--bg-secondary);
+  color: var(--color);
+}
+
+.section-1 {
+  min-height: calc(100vh - 85px);
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1280px) {
+  section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}
+}
+
+@media only screen and (min-width: 2560px) {
+  .title {
+    font-size: 120px;
+  }
+}
